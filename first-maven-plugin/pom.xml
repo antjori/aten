@@ -3,11 +3,17 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>pt.devhub.plugin</groupId>
+	<groupId>pt.devhub.maven.plugin</groupId>
 	<artifactId>first-maven-plugin</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
 	<packaging>maven-plugin</packaging>
+
+	<!-- Properties -->
+	<properties>
+		<!-- encoding -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -36,7 +42,7 @@
 				<artifactId>maven-plugin-plugin</artifactId>
 				<version>3.4</version>
 				<configuration>
-					<goalPrefix>first-maven-plugin</goalPrefix>
+					<goalPrefix>first</goalPrefix>
 				</configuration>
 			</plugin>
 			<plugin>

@@ -1,4 +1,4 @@
-package pt.devhub.plugin;
+package pt.devhub.maven.plugin;
 
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
